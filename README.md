@@ -35,6 +35,12 @@ This section should detail the results of the reference experiment. It should in
 
 #### Improve on the reference
 ##### Augmentations
+One way to improve the reference was the usage of the data set augmentation. This can be configured in the config file as shown below:
+![local image](doc/pic15.png)
+
+This is how the config affected the images:
+![local image](doc/pic13.png) ![local image](doc/pic14.png)
+
 
 ##### Change the configs
 Optimizer, batch size, steps and decay
