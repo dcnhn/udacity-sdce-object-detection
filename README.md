@@ -150,6 +150,7 @@ The following tools are needed for this project: Python, Jupyter Notebook. Follo
 ### Dataset
 #### Dataset analysis
 The data set used in this project reflected different situation a self-driving car might face in reality. The images covered urban, rural and highway scenarios, respectively. Additionaly, the data set covered different environmental circumstances such as nightly, foggy or rainy scences.
+
 ![local image](doc/pic1.png)
 ![local image](doc/pic2.png)
 ![local image](doc/pic3.png)
