@@ -20,6 +20,7 @@ The data set used in this project reflected different situation a self-driving c
 
 Further analyis of 10000 batches shows that the majority of images contains cars or pedestrians. Cyclists are rather under represented.
 
+![local image](doc/pic10.png)
 ![local image](doc/pic9.png)
 
 #### Cross validation
