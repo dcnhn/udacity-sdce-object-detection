@@ -46,8 +46,12 @@ This is how the config affected the images:
 Another way to improve the reference was to change the trainings parameter such as the optimizer. The reference model used a momemtum optimizer. To explore how it affects the model, I used the Adam optimizer with an exponential decay. As I ran into the disk space issues, I also reduced both the batch size and the number of steps.
 ![local image](doc/pic11.PNG)
 
-The results of the training are shown below.
+As depicted below, we can observe that the loss values are very high (>> 0).
+This is an indicator that the parameters are not set correctly yet.
+My first guess is that the initial learning rate is set way too high.
 ![local image](doc/pic12.PNG)
+
+
 
 
 
