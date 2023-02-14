@@ -43,4 +43,12 @@ This is how the config affected the images:
 
 
 ##### Change the configs
-Optimizer, batch size, steps and decay
+Another way to improve the reference was to change the trainings parameter such as the optimizer. The reference model used a momemtum optimizer. To explore how it affects the model, I used the Adam optimizer with an exponential decay. As I ran into the disk space issues, I also reduced both the batch size and the number of steps.
+![local image](doc/pic11.PNG)
+
+The results of the training are shown below.
+![local image](doc/pic12.PNG)
+
+
+
+
