@@ -150,14 +150,14 @@ The following tools are needed for this project: Python, Jupyter Notebook. Follo
 ### Dataset
 #### Dataset analysis
 The data set used in this project reflected different situation a self-driving car might face in reality. The images covered urban, rural and highway scenarios, respectively. Additionaly, the data set covered different environmental circumstances such as nightly, foggy or rainy scences.
-![img1](doc/pic1.png)
-![img2](doc/pic2.png)
-![img3](doc/pic3.png)
-![img4](doc/pic4.png)
-![img5](doc/pic5.png)
-![img6](doc/pic6.png)
-![img7](doc/pic7.png)
-![img8](doc/pic8.png)
+![local image](doc/pic1.png)
+![local image](doc/pic2.png)
+![local image](doc/pic3.png)
+![local image](doc/pic4.png)
+![local image](doc/pic5.png)
+![local image](doc/pic6.png)
+![local image](doc/pic7.png)
+![local image](doc/pic8.png)
 
 #### Cross validation
 This section should detail the cross validation strategy and justify your approach.
