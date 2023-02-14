@@ -138,17 +138,27 @@ Finally, you can create a video of your model's inferences for any tf record fil
 python inference_video.py --labelmap_path label_map.pbtxt --model_path experiments/reference/exported/saved_model --tf_record_path /data/waymo/testing/segment-12200383401366682847_2552_140_2572_140_with_camera_labels.tfrecord --config_path experiments/reference/pipeline_new.config --output_path animation.gif
 ```
 
-## Submission Template
+## Project Report
 
 ### Project overview
-This section should contain a brief description of the project and what we are trying to achieve. Why is object detection such an important component of self driving car systems?
+The task of this project is to train a model to detect vehicles, pedestrians and cyclists from images. The images are extracted from vehicle camera recordings of the [Waymo Open Dataset](https://waymo.com/open/) and fed to the model. The environment perception using the optical camera is crucial for autonomous driving as as the camera is capable of object classification.
+Additionally, the camera is way more cheaper compared to the LiDAR sensor.
 
 ### Set up
-This section should contain a brief description of the steps to follow to run the code for this repository.
+The following tools are needed for this project: Python, Jupyter Notebook. Follow above-mentioned steps to the get the data to train the model.
 
 ### Dataset
 #### Dataset analysis
-This section should contain a quantitative and qualitative description of the dataset. It should include images, charts and other visualizations.
+The data set used in this project reflected different situation a self-driving car might face in reality. The images covered urban, rural and highway scenarios, respectively. Additionaly, the data set covered different environmental circumstances such as nightly, foggy or rainy scences.
+![img1](doc/pic1.png)
+![img2](doc/pic2.png)
+![img3](doc/pic3.png)
+![img4](doc/pic4.png)
+![img5](doc/pic5.png)
+![img6](doc/pic6.png)
+![img7](doc/pic7.png)
+![img8](doc/pic8.png)
+
 #### Cross validation
 This section should detail the cross validation strategy and justify your approach.
 
@@ -157,4 +167,4 @@ This section should detail the cross validation strategy and justify your approa
 This section should detail the results of the reference experiment. It should includes training metrics and a detailed explanation of the algorithm's performances.
 
 #### Improve on the reference
-This section should highlight the different strategies you adopted to improve your model. It should contain relevant figures and details of your findings.
+This section should highlight the different strategies you adopted to improve your model. It should contain relevant figures and details of your findings. 
