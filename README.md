@@ -36,10 +36,10 @@ This section should detail the results of the reference experiment. It should in
 #### Improve on the reference
 ##### Augmentations
 One way to improve the reference was the usage of the data set augmentation. This can be configured in the config file as shown below:
-![local image](doc/pic15.png)
+![local image](doc/pic15.PNG)
 
 This is how the config affected the images:
-![local image](doc/pic13.png) ![local image](doc/pic14.png)
+![local image](doc/pic13.PNG) ![local image](doc/pic14.PNG)
 
 
 ##### Change the configs
