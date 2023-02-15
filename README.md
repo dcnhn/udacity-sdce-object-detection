@@ -31,7 +31,8 @@ The data set is separated into training, testing and validation sets. It is impo
 I did the project on the Udacity Workspace. Unfortunately, I ran out of disk space while tuning the model. As a result, I was not able to plot the validation data as I had to delete older checkpoints to have space on my disk. Additionally, I was not able to keep multiple experiments on the disk to compare them in tensorflow.
 
 #### Reference experiment
-This section should detail the results of the reference experiment. It should includes training metrics and a detailed explanation of the algorithm's performances.
+The training results of the pretrained ResNet model don't look promising as shown below.
+![local image](doc/pic16.PNG) ![local image](doc/pic17.PNG) ![local image](doc/pic18.PNG)
 
 #### Improve on the reference
 ##### Augmentations
