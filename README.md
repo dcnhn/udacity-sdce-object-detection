@@ -32,24 +32,29 @@ I did the project on the Udacity Workspace. Unfortunately, I ran out of disk spa
 
 #### Reference experiment
 The training results of the pretrained ResNet model don't look promising as shown below.
+
 ![local image](doc/pic16.PNG) ![local image](doc/pic17.PNG) ![local image](doc/pic18.PNG)
 
 #### Improve on the reference
 ##### Augmentations
 One way to improve the reference was the usage of the data set augmentation. This can be configured in the config file as shown below:
+
 ![local image](doc/pic15.PNG)
 
 This is how the config affected the images:
+
 ![local image](doc/pic13.PNG) ![local image](doc/pic14.PNG)
 
 
 ##### Change the configs
 Another way to improve the reference was to change the trainings parameter such as the optimizer. The reference model used a momemtum optimizer. To explore how it affects the model, I used the Adam optimizer with an exponential decay. As I ran into the disk space issues, I also reduced both the batch size and the number of steps.
+
 ![local image](doc/pic11.PNG)
 
 As depicted below, we can observe that the loss values are very high (>> 0).
 This is an indicator that the parameters are not set correctly yet.
 My first guess is that the initial learning rate is set way too high.
+
 ![local image](doc/pic12.PNG)
 
 
