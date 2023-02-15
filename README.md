@@ -32,7 +32,8 @@ I did the project on the Udacity Workspace. Unfortunately, I ran out of disk spa
 
 #### Reference experiment
 The training results of the pretrained ResNet model don't look promising as shown below.
-
+It seems like the model was initially overfitting as the training loss was overshooting the validation loss.
+In addition, we can also observe that the loss is increasing instead of decreasing which indicates that the model performs poorly.
 ![local image](doc/pic16.png) ![local image](doc/pic17.png) ![local image](doc/pic18.png)
 
 #### Improve on the reference
