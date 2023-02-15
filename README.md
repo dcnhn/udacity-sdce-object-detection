@@ -33,7 +33,7 @@ I did the project on the Udacity Workspace. Unfortunately, I ran out of disk spa
 #### Reference experiment
 The training results of the pretrained ResNet model don't look promising as shown below.
 
-![local image](doc/pic16.PNG) ![local image](doc/pic17.PNG) ![local image](doc/pic18.PNG)
+![local image](doc/pic16.png) ![local image](doc/pic17.png) ![local image](doc/pic18.png)
 
 #### Improve on the reference
 ##### Augmentations
